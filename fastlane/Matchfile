@@ -1,0 +1,9 @@
+git_url "https://github.com/AgtLucas/nothing-fancy.git"
+
+type "development" # The default type, can be: appstore, adhoc or development
+
+app_identifier "com.agtlucas.rnrc"
+username "agtlucas@me.com"
+
+# For all available options run `match --help`
+# Remove the # in the beginning of the line to enable the other options
