@@ -33,7 +33,7 @@ platform :ios do
     # match(type: "appstore") # more information: https://codesigning.guide
     gym(
       scheme: "AwesomeProject",
-      project: './ios/AwesomeProject.xcodeproj'
+      project: './ios/RNRC.xcodeproj'
     )
     pilot
 
