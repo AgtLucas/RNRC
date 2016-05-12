@@ -13,6 +13,15 @@ import {
 } from 'react-native';
 
 class RNRC extends Component {
+  
+  randomColor () {
+    let color = '#' + ('000000' + Math.random().toString(16).slice(2, 8).toUpperCase()).slice(-6)
+    this.setState({
+      color: color
+    })
+    return color
+  }
+  
   render() {
     return (
       <View style={styles.container}>
