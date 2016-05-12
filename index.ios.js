@@ -1,16 +1,10 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import {
   AppRegistry,
   StyleSheet,
   Text,
   View
-} from 'react-native';
+} from 'react-native'
 
 class RNRC extends Component {
   
@@ -36,7 +30,7 @@ class RNRC extends Component {
           Cmd+D or shake for dev menu
         </Text>
       </View>
-    );
+    )
   }
 }
 
@@ -57,6 +51,6 @@ const styles = StyleSheet.create({
     color: '#333333',
     marginBottom: 5,
   },
-});
+})
 
-AppRegistry.registerComponent('RNRC', () => RNRC);
+AppRegistry.registerComponent('RNRC', () => RNRC)
