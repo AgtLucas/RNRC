@@ -116,7 +116,7 @@
 		00E356F21AD99517003FC87E /* RNRCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNRCTests.m; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* RNRC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNRC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Random Color.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Random Color.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNRC/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RNRC/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -299,7 +299,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* RNRC.app */,
+				13B07F961A680F5B00A75B9A /* Random Color.app */,
 				00E356EE1AD99517003FC87E /* RNRCTests.xctest */,
 			);
 			name = Products;
@@ -341,7 +341,7 @@
 			);
 			name = RNRC;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* RNRC.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* Random Color.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -623,7 +623,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.agtlucas.rnrc;
-				PRODUCT_NAME = RNRC;
+				PRODUCT_NAME = "Random Color";
 				PROVISIONING_PROFILE = "$(sigh_com.agtlucas.rnrc)";
 			};
 			name = Debug;
@@ -643,7 +643,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.agtlucas.rnrc;
-				PRODUCT_NAME = RNRC;
+				PRODUCT_NAME = "Random Color";
 				PROVISIONING_PROFILE = "$(sigh_com.agtlucas.rnrc)";
 			};
 			name = Release;
