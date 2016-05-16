@@ -34,7 +34,6 @@ class RNRC extends Component {
 
   render () {
     let color = this.state.color
-    console.log(color)
 
     let containerStyle = {
       flex: 1,
