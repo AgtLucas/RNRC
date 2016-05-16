@@ -7,7 +7,7 @@ import {
 } from 'react-native'
 
 class RNRC extends Component {
-  render() {
+  render () {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: '#333333',
     marginBottom: 5
-  },
+  }
 })
 
 AppRegistry.registerComponent('RNRC', () => RNRC)
