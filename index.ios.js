@@ -7,7 +7,7 @@ import {
 } from 'react-native'
 
 class RNRC extends Component {
-  
+
   randomColor () {
     let color = '#' + ('000000' + Math.random().toString(16).slice(2, 8).toUpperCase()).slice(-6)
     this.setState({
@@ -15,8 +15,8 @@ class RNRC extends Component {
     })
     return color
   }
-  
-  render() {
+
+  render () {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
